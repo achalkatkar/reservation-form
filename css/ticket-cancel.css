@@ -24,8 +24,8 @@
 
 .table-content{
     background-color: cornflowerblue;
-    height: 400px;
-    width: 90%;
+    height: 300px;
+    width: 88%;
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -38,7 +38,7 @@
     font-size: 24px;
     height: 200px;
     width: 300px;
-    margin-left: 10px;
+    margin-top: 30px;
     text-align: center;
 }
 th{
@@ -46,4 +46,28 @@ th{
 }
 td{
     border: 1px solid beige;
+}
+.fees-detail{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgrey;
+    height: 120px;
+    width: 90%;
+}
+.copyright{
+    background-color: darkcyan;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 5px;
+    height: 38px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
 }
