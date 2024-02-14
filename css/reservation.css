@@ -1,0 +1,26 @@
+.container{
+    height: 400px;
+    width: 500px;
+    border: 2px black solid;
+    border-radius: 5px;
+    background-color: lightcoral;
+    text-align: center;
+    margin: auto auto;
+    margin-top: 100px;
+}
+
+
+.lable-name{
+    font-size: 22px;
+    margin: 5px;
+
+}
+
+.input-box{
+height: 40px;
+width: 300px;
+border: none;
+font-size: 22px;
+padding: 5px;
+border-radius: 5px;
+}
