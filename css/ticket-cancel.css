@@ -1,3 +1,20 @@
+.nav{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    background-color: coral;
+    color: antiquewhite;
+}
+
+.menu{
+    margin: 10px;
+    font-size: 20px;
+}
+.menu a{
+    text-decoration: none;
+}
+
+
 .conatiner{
     background-color: aqua;
     height: 250px;
@@ -69,5 +86,8 @@ td{
     height: 38px;
     width: 150px;
     border: none;
+    text-align: center;
     cursor: pointer;
+    color: #fff;
+    background-color:darkslateblue;
 }
