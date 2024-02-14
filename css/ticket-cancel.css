@@ -1,0 +1,23 @@
+.conatiner{
+    background-color: aqua;
+    height: 400px;
+    width: 90%;
+}
+.sub-conatiner{
+    background-color: burlywood;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.back-color{
+    background-color: cadetblue;
+}
+.text{
+    font-size: 18px;
+}
+.input-box{
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
