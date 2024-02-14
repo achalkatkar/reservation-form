@@ -1,6 +1,12 @@
+.merge{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
 .container{
-    height: 600px;
-    width: 500px;
+    height: 640px;
+    width: 580px;
     border: 2px black solid;
     border-radius: 5px;
     background-color: lightcoral;
@@ -22,4 +28,25 @@ border: none;
 font-size: 22px;
 padding: 5px;
 border-radius: 5px;
+}
+
+.btn{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 3px;
+    margin: 5px;
+    height: 38px;
+    width: 150px;
+    border: none;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
 }
