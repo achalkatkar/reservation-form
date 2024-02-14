@@ -1,6 +1,6 @@
 .conatiner{
     background-color: aqua;
-    height: 400px;
+    height: 250px;
     width: 90%;
 }
 .sub-conatiner{
@@ -20,4 +20,30 @@
     font-size: 18px;
     border-radius: 5px;
     border: none;
+}
+
+.table-content{
+    background-color: cornflowerblue;
+    height: 400px;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.table{
+    table-layout: auto;
+    border: 2px solid beige;
+    margin: 10px;
+    padding: 5px;
+    font-size: 24px;
+    height: 200px;
+    width: 300px;
+    margin-left: 10px;
+    text-align: center;
+}
+th{
+    border: 1px solid beige;
+}
+td{
+    border: 1px solid beige;
 }
